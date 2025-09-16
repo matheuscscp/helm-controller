@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   release:
-    uses: fluxcd/gha-workflows/.github/workflows/release.yaml@release
+    uses: fluxcd/gha-workflows/.github/workflows/release.yml@release
     with:
       tag: ${{ inputs.tag }}
     secrets: inherit
